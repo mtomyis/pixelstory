@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".Gallery.ActivityGallery"
+    android:background="@drawable/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="100">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="10"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnkembalii"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingStart="20dp"
+            android:paddingRight="20dp"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@drawable/bac"
+            android:fontFamily="@font/montserrat"
+            android:text="Gallery"
+            android:textAllCaps="false"
+            android:textColor="#b2bec3"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="90">
+
+        <include layout="@layout/content_gallery"
+            android:id="@+id/viewgallery"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            />
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

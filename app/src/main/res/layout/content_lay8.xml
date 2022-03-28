@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_lay8"
+    android:layout_margin="10dp"
+    android:layout_marginTop="30dp"
+    android:layout_height="500dp"
+    android:layout_width="370dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.tom_tom.pixelstory.FrameSaja.Lay8"
+    tools:showIn="@layout/activity_lay8">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp"
+        android:weightSum="6"
+        android:background="@color/white">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/img8a"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_add_black_24dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="4">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <ImageButton
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/img8b"
+                        android:src="@drawable/ic_add_black_24dp"
+                        android:layout_weight="1" />
+                </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

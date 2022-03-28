@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--suppress ALL -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.tom_tom.pixelstory">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <!-- To access Google+ APIs: -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ps"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Splashscreen"
+            android:label="@string/app_name"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!--<provider-->
+            <!--android:authorities="${applicationId}.fileprovider"-->
+            <!--android:name="android.suport.v4.content.FileProvider"-->
+            <!--android:exported="false"-->
+            <!--android:grantUriPermissions="true">-->
+            <!--<meta-data-->
+                <!--android:name="android.support.FILE_PROVIDER_PATHS"-->
+                <!--android:resource="@xml/filepaths"-->
+                <!--tools:replace="android:resource"></meta-data>-->
+        <!--</provider>-->
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+
+        <activity android:name=".Collage" />
+        <activity android:name=".About" />
+        <activity android:name=".Choose_frame" />
+
+        <activity
+            android:name=".FrameSaja.Lay1"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".FrameSaja.Lay2"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".FrameSaja.Lay3"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".FrameSaja.Lay4"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".FrameSaja.Lay5"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".FrameSaja.Lay6"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".FrameSaja.Lay7"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".FrameSaja.Lay8"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".FrameSaja.Lay9"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".FrameText.Lay1T"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".FrameText.Lay2T"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".FrameText.Lay3T"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".FrameText.Lay4T"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".FrameText.Lay5T"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".FrameText.Lay6T"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".FrameText.Lay7T"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".FrameText.Lay8T"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".FrameText.Lay9T"
+            android:theme="@style/AppTheme" />
+
+        <activity android:name=".Gallery.ActivityGallery"></activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+        <activity android:name=".Gallery.Detail"></activity>
+
+    </application>
+
+</manifest>

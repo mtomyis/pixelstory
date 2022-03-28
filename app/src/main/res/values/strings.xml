@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">PIXELSTORY</string>
+    <string name="action_settings">About</string>
+    <string name="action_save">save</string>
+
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_lay1">activity_lay1</string>
+    <!--<string name="title_activity_lay1">layout 1</string>-->
+    <!--<string name="title_activity_lay8">Layout 8</string>-->
+</resources>

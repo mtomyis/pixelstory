@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#8f8f8f</color>
+
+    <!--ini duwur-->
+    <color name="colorPrimaryDark">#9b9b9b</color>
+    <!--ini duwur-->
+
+    <color name="white">#ffffff</color>
+
+    <color name="colorAccent">#ededed</color>
+    <color name="black_overlay">#66000000</color>
+</resources>
